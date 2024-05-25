@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main() {
+    int number, Square;
+    printf(" \n Please Enter an Integer: ");
+    scanf("%d", &number);
+    Square = Calculate_Square(number);
+    printf("\n Square of the Number = %d", Square);
+    return 0;
+}
+
+int Calculate_Square(int Number) {
+    return Number * Number;
+}
+def Calculate_Square(number):
+    return number * number
+
+number = int(input("Please Enter an Integer: "))
+Square = Calculate_Square(number)
+print("Square of the Number =", Square)
